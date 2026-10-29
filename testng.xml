@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyTestSuite">
+    <test name ="APITests">
+       <classes>
+             <class name = "Tests.APITest"
+       </classes>
+    </test>
+    <test name="LoginTests">
+        <classes>
+            <class name="Tests.loginTestNG"/>
+        </classes>
+    </test>
+    <test name="CheckboxTests">
+        <classes>
+            <class name="Tests.CheckboxTestNG"/>
+        </classes>
+    </test>
+</suite>
